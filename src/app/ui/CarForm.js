@@ -21,8 +21,9 @@ export default function CarForm() {
       <form className={styles.FormContainer}>
         {Object.keys(formData).map((key) => (
           <div className={styles.FormElement} key={key}>
-            <label>{key[0].toLocaleUpperCase() + key.slice(1)}</label>
+            <label className={styles.FormLabel}>{key[0].toLocaleUpperCase() + key.slice(1)}</label>
             <input
+              className={styles.FormInput}
               type="text"
               name={key}
               value={formData[key]}
