@@ -1,0 +1,25 @@
+.TriggerButton {
+  padding: 25px 150px;
+  background-color: #333;
+  color: #00aaff;
+  border: none;
+  border-radius: 3px; /* Rounded corners */
+  box-shadow: rgba(45, 45, 60, 0.2) 0px 2px 1px, rgba(0, 0, 0, 0.1) 0px 1.5px 1px inset; /* Box shadow */
+  cursor: pointer; /* Cursor pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.TriggerButton:hover {
+  background-color: #444; /* Darker background on hover */
+}
+
+.TriggerButton:active {
+  background-color: #222; /* Even darker background when active */
+}
+
+@media (max-width: 600px) {
+  .add-car-button {
+    padding: 8px 16px; /* Adjust padding for smaller screens */
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+}
