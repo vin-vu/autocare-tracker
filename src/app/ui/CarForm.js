@@ -10,6 +10,7 @@ export default function CarForm() {
     year: '',
     'License Plate': '',
     vin: '',
+    password: '',
   });
 
   const handleChange = (event) => {
